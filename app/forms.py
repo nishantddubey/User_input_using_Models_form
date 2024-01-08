@@ -11,6 +11,8 @@ class WebpageForm(forms.ModelForm):
     class Meta:
         model = Webpage
         fields = '__all__'
+        # labels = {'topic_name':'TN'}
+        # widgets = {'url':forms.PasswordInput()} 
         
         
 class AccessrecordForm(forms.ModelForm):
